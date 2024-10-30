@@ -1,0 +1,102 @@
+.bitwords-section {
+  flex: 1;
+  margin: 30px 0
+}
+
+.bitwords-header {
+  align-items:center;
+  display:flex;
+  padding-bottom:16px;
+  width:100%;
+}
+
+.bitwords-title {
+  flex: 1;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #282f2f;
+  font-size: 20px;
+}
+
+.bitwords-logo-link {
+  align-items:center;
+  color: #999;
+  display:flex;
+  font-family: arial;
+  font-size: 11px;
+  justify-content: center;
+  line-height: 1;
+  text-align: right;
+  text-decoration: none;
+}
+
+.bitwords-link, .bitwords-logo-link {
+  text-decoration: none
+}
+
+.bitwords-logo {
+  margin-left:12px;
+  width: 80px;
+  box-shadow: none;
+}
+
+.bitwords-set {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.bitwords-item {
+  display: block;
+  flex: 1;
+  padding-left: 15px;
+  text-decoration: none;
+  box-shadow: none !important
+}
+
+.bitwords-item:first-child {
+  padding: 0;
+}
+
+.bitwords-item .bitwords-link {
+  font-size: 16px
+}
+
+.bitwords-item .bitwords-item-img {
+  font-weight: 500;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.bitwords-item .bitwords-title {
+  color: #282f2f;
+  padding: 10px 0 5px;
+  text-align: left;
+  line-height: 1.25;
+  font-size: 16px;
+}
+
+.bitwords-item .bitwords-item-img img {
+  width: 100%;
+}
+
+.bitwords-domain {
+  font-size: 12px;
+}
+
+.bitwords-img {
+  padding: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .bitwords-set {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .bitwords-item {
+    margin-bottom: 30px;
+    padding-left: 0
+  }
+}
